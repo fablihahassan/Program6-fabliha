@@ -1,7 +1,7 @@
 #
-# UTD CS3377 CDK Example
-# Dr. Perkins
-# stephen.perkins@utdallas.edu
+# Name: Fabliha Hassan
+# Email: fxh151330@utdallas.edu
+# Course: CS 3377.002
 #
 
 CXX = g++
