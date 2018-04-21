@@ -5,9 +5,9 @@
 #
 
 CXX = g++
-CXXFLAGS =
-CPPFLAGS = -Wall -g -I /scratch/perkins/include
-LDFLAGS = -L /scratch/perkins/lib
+CXXFLAGS = -Wall -g
+CPPFLAGS = -I/scratch/perkins/include
+LDFLAGS = -L/scratch/perkins/lib
 LDLIBS = -lcdk -lcurses 
 
 #
@@ -18,7 +18,7 @@ PROJECTNAME = ExampleCDK
 
 EXECFILE = cdkexample
 
-OBJS = example1.o
+OBJS = example1.o 
 
 
 all: $(EXECFILE)
